@@ -1,0 +1,122 @@
+/* Configuración General */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fdfbf0; /* Crema suave */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffecb3; /* Amarillo pastel */
+    padding: 2.5rem 1rem;
+    text-align: center;
+    border-bottom: 4px solid #fbc02d;
+}
+
+h1 {
+    margin: 0;
+    color: #5d4037;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    color: #795548;
+    max-width: 650px;
+    margin: 10px auto 0;
+}
+
+.container {
+    max-width: 850px;
+    margin: 2rem auto;
+    padding: 0 20px;
+}
+
+section {
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    border-left: 6px solid #ffe082;
+}
+
+h2 {
+    color: #f57f17;
+    margin-top: 0;
+    font-size: 1.25rem;
+    border-bottom: 2px solid #fff9c4;
+    padding-bottom: 10px;
+}
+
+/* Estructura de los items */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 15px 0;
+    border-bottom: 1px solid #f8f8f8;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+.item-tramite {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Para móviles */
+    gap: 15px;
+}
+
+/* Enlace al trámite oficial */
+.main-link {
+    text-decoration: none;
+    color: #0277bd;
+    font-weight: 600;
+    font-size: 1.05rem;
+    transition: color 0.2s;
+}
+
+.main-link:hover {
+    color: #01579b;
+    text-decoration: underline;
+}
+
+/* Botón de Guía (Google Docs) */
+.guide-link {
+    text-decoration: none;
+    background-color: #fff9c4;
+    color: #856404;
+    padding: 8px 16px;
+    border-radius: 50px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    border: 1px solid #ffeeba;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+
+.guide-link:hover {
+    background-color: #fbc02d;
+    color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.no-link {
+    color: #aaa;
+    font-size: 0.95rem;
+    font-style: italic;
+}
+
+footer {
+    text-align: center;
+    padding: 3rem 1rem;
+    font-size: 0.85rem;
+    color: #999;
+}
